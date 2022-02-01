@@ -2,11 +2,13 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   
   <title>Frontend Mentor | Crowdfunding product page</title>
+  <link rel="stylesheet" href="main.css">
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <style>
@@ -14,39 +16,154 @@
     .attribution a { color: hsl(228, 45%, 44%); }
   </style>
 </head>
-<body>
-  About
-  Discover
-  Get Started
+<body style="background-color: whitesmoke;">
 
-  Mastercraft Bamboo Monitor Riser
-  A beautiful & handcrafted monitor stand to reduce neck and eye strain.
-
-  Back this project
-  Bookmark
-
-  $89,914 of $100,000 backed
-  5,007 total backers
-  56 days left
-
-  About this project
-
-  The Mastercraft Bamboo Monitor Riser is a sturdy and stylish platform that elevates your screen 
-  to a more comfortable viewing height. Placing your monitor at eye level has the potential to improve 
-  your posture and make you more comfortable while at work, helping you stay focused on the task at hand.
-
-  Featuring artisan craftsmanship, the simplicity of design creates extra desk space below your computer 
-  to allow notepads, pens, and USB sticks to be stored under the stand.
   
-  Bamboo Stand
-  Pledge $25 or more
-  You get an ergonomic stand made of natural bamboo. You've helped us launch our promotional campaign, and 
-  you’ll be added to a special Backer member list.
-  101 left
-  Select Reward
 
-  Black Edition Stand
-  Pledge $75 or more
+
+  <nav class="navbar navbar-expand-lg navbar-light bg-light" id="navPic">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#" style="padding-left: 5%; color: white;"><strong> Crowdfund</strong></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" style="color: white;">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      
+      <div class="collapse navbar-collapse" id="navbarNav" style="padding-left: 65%;">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active" id="link" aria-current="page" href="#">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" id="link" aria-current="page" href="#">Discover</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" id="link" aria-current="page" href="#">Get Started</a>
+          </li>
+          
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div class="container" style="position: relative; margin-top: -65px;">
+    <div id="contain">
+      <svg style="margin-top: -35px;" s width="56" height="56" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><circle fill="#000" cx="28" cy="28" r="28"/><g fill-rule="nonzero"><path d="M15.565 28.565a1.93 1.93 0 012.606-.113l.122.113 10.142 10.142a1.93 1.93 0 01-2.606 2.84l-.122-.112-10.142-10.142a1.93 1.93 0 010-2.728z" fill="#444"/><path d="M36.19 17.48c1.006-.996 2.706-.34 2.805 1.026l.005.126v10.736c0 .9-.737 1.629-1.646 1.629a1.64 1.64 0 01-1.642-1.507l-.005-.122v-6.805l-8.043 7.957c-1.006.996-2.707.34-2.806-1.026l-.004-.126v-6.805L16.81 30.52a1.66 1.66 0 01-2.224.095l-.105-.095a1.616 1.616 0 01-.096-2.2l.096-.103L25.336 17.48c1.006-.996 2.707-.34 2.806 1.026l.004.126v6.804l8.043-7.956z" fill="#FFF"/></g></g></svg>
+      <h4 style="margin: 3%;"><strong> Mastercraft Bamboo Monitor Riser</strong></h4>
+      <h6 id="h6text">A beautiful & handcrafted monitor stand to reduce neck and eye strain.</h6>
+
+      <div class="container2">
+        <div class="row" >
+
+        <div class="col-md-6" style="margin-bottom: 5%;">
+        <button  id="button" class="btn btn-secondary" type="button">Back this project</button>
+        </div>
+
+        <div class="col-md-6" style="margin-bottom: 5%;">
+          <svg id="mark"  width="56" height="56" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><circle fill="#2F2F2F" cx="28" cy="28" r="28"/><path fill="#B1B1B1" d="M23 19v18l5-5.058L33 37V19z"/></g></svg>
+          <button id="Bookmark" class="btn btn-secondary" type="button"> Bookmark</button>
+          </div>
+      </div>
+      </div>
+    </div>
+
+    <div id="contain">
+      <div class="row" style="margin: 2%;">
+        
+      </div>
+      <div class="row" style="margin: 5%;">
+        <div class="col-lg-4">
+          <h3><strong>$89,914</strong></h3>
+          <h6 style="color: lightgray;">of $100,000 backed</h6>
+        </div>
+        <div class="col-lg-4" id="lines">
+          <h3><strong>5,007</strong></h3>
+          <h6 style="color: lightgray;">total backers</h6>
+        </div>
+        <div class="col-lg-4">
+          <h3><strong>56</strong></h3>
+          <h6 style="color: lightgray;">days left</h6>
+        </div>
+      </div>
+
+     
+      <div class="container" style="background-color: transparent;">
+        <div class="progress">
+          <div class="progress-bar bg-secondary" role="progressbar" style="width: 75%; color: gray;" aria-valuenow="75" aria-valuemin="10" aria-valuemax="100"></div>
+        </div>
+      </div>
+      <div class="row" ></div>
+      
+    </div>
+
+    <div id="contain">
+      <div class="row">
+        <div class="col-md-12" style="text-align: left; margin-left: 10%; margin-right: 20%;">
+      <h5 style="margin-right: 6%; padding-top: 5%;"><Strong>About this project</Strong></h5>
+    </div>
+    </div>
+      <br>
+      <h6 style="text-align: left; margin-left: 10%; margin-right: 10%; color: lightgray;">The Mastercraft Bamboo Monitor Riser is a sturdy and stylish platform that elevates your screen 
+        to a more comfortable viewing height. Placing your monitor at eye level has the potential to improve 
+        your posture and make you more comfortable while at work, helping you stay focused on the task at hand.</h6>
+        <br>
+        <h6 style="text-align: left; margin-left: 10%; margin-right: 10%; color: lightgray;">Featuring artisan craftsmanship, the simplicity of design creates extra desk space below your computer 
+          to allow notepads, pens, and USB sticks to be stored under the stand.</h6>
+          <br>
+          
+          <div id="boxes">
+            <div class="row" style="margin: 5%;">
+              <div class="col-md-6" style="text-align: left;">
+                <h5 ><Strong>Bamboo Stand</Strong></h5>
+              </div>
+              <div class="col-md-6">
+                <h6 style="color: lightblue; text-align: right;">Pledge $25 or more</h6>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-12">
+                <h6 id="boxe">You get an ergonomic stand made of natural bamboo. You've helped us launch our promotional campaign, and 
+                  you’ll be added to a special Backer member list.</h6>
+                </div>
+                </div>
+             <div class="row">
+               <div class="col-md-6" style="margin-bottom: 4%; " >
+                 <h3 ><strong>100</strong> <span style="color: cadetblue;">left</span></h3>
+               </div>
+               <div class="col-md-6" style="margin-bottom: 4%; ">
+                <button  id="button" class="btn btn-secondary" type="button">Select Reward</button>
+               </div>
+             </div>
+      
+          </div>
+
+          <div style="border-style: solid; margin-left: 10%; margin-right: 10%;" id="boxes">
+            <div class="row" style="margin: 5%;">
+              <div class="col-md-6" style="text-align: left;">
+                <h5 ><Strong> Black Edition Stand</Strong></h5>
+              </div>
+              <div class="col-md-6">
+                <h6 style="color: lightblue; text-align: right;">Pledge $75 or more</h6>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col-md-12">
+                <h6 id="boxe">You get a Black Special Edition computer stand and a personal thank you. You’ll be added to our Backer 
+                  member list. Shipping is included.</h6>
+                </div>
+                </div>
+
+
+          </div>
+
+
+
+    </div> 
+  </div>
+  
+ 
+
+ 
   You get a Black Special Edition computer stand and a personal thank you. You’ll be added to our Backer 
   member list. Shipping is included.
   64 left
@@ -114,5 +231,7 @@
   Got it!
 
   <!-- Success modal end -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
 </body>
 </html>

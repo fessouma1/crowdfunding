@@ -1,0 +1,71 @@
+#navPic{
+    background-image: url("../crowdfunding/images/image-hero-desktop.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 25%;
+    
+}
+
+#link{
+    color: white;
+}
+#contain{
+    text-align: center;
+    background-color: white;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+  
+    margin-top: 2%;
+    
+}
+.container{
+   
+    text-align: center;
+    width: 50%;
+    z-index: 50;
+    margin-bottom: 50px;
+        
+}
+#button{
+    background-color: gray;
+    color: white;
+    border-radius: 30px;
+    
+}
+#Bookmark{
+    margin-left: -10%; 
+    background-color:lightgray;
+    border: transparent;
+    border-radius: 10px 40px 40px 10px;
+}
+#lines{
+    border-left: solid 2px;
+    border-right: solid 2px;
+    border-color:lightgray;
+    height: 50px;    
+}
+#mark{
+    margin-right: 6%;
+    position: relative;
+}
+#h6text{
+    color: lightgray; margin-bottom: 3%;
+}
+#boxes{
+    border-color: lightgray;
+    border-style: solid;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 4%;
+    border-radius: 30px;
+}
+#boxe{
+    color: lightgray; 
+   
+    text-align: center; 
+    margin-right: 4%;
+    margin-left: 4%;
+    margin-bottom: 5%;
+}
